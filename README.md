@@ -8,8 +8,8 @@ Our database uses 0-based, half-open coordinates for genomic coordinates in the 
 
 Data is licensed under the <a href=https://creativecommons.org/licenses/by/4.0/ target=\"_blank\">Creative Commons license</a> and the software is licensed under the <a href=https://spdx.org/licenses/MIT.html target=\"_blank\">MIT license</a>.
 
-- API version: 1.3.1.dev20261106195012
-- Package version: 1.3.1.dev20261106195012
+- API version: 1.3.1.dev20261107033540
+- Package version: 1.3.1.dev20261107033540
 - Generator version: 7.14.0
 
 This package is generated with [OpenAPI Generator](https://openapi-generator.tech) by
@@ -188,6 +188,10 @@ Class | Method | HTTP request | Description
 *AsyncIgvfCatalogApi* | [**variants_from_drugs**](docs/AsyncIgvfCatalogApi.md#variants_from_drugs) | **GET** /drugs/variants | 
 *AsyncIgvfCatalogApi* | [**files_filesets**](docs/AsyncIgvfCatalogApi.md#files_filesets) | **GET** /files-filesets | 
 *AsyncIgvfCatalogApi* | [**llm_query**](docs/AsyncIgvfCatalogApi.md#llm_query) | **POST** /llm-query | 
+*AsyncIgvfCatalogApi* | [**gene_programs**](docs/AsyncIgvfCatalogApi.md#gene_programs) | **GET** /gene-programs | 
+*AsyncIgvfCatalogApi* | [**gene_programs_gene_programs**](docs/AsyncIgvfCatalogApi.md#gene_programs_gene_programs) | **GET** /gene-programs/gene-programs | 
+*AsyncIgvfCatalogApi* | [**genes_from_gene_programs**](docs/AsyncIgvfCatalogApi.md#genes_from_gene_programs) | **GET** /gene-programs/genes | 
+*AsyncIgvfCatalogApi* | [**gene_programs_from_genes**](docs/AsyncIgvfCatalogApi.md#gene_programs_from_genes) | **GET** /genes/gene-programs | 
 *AsyncIgvfCatalogApi* | [**genes_genomic_elements_score_summary**](docs/AsyncIgvfCatalogApi.md#genes_genomic_elements_score_summary) | **GET** /genes/genomic-elements/score-summary | 
 *AsyncIgvfCatalogApi* | [**genes_transcripts_genomic_elements**](docs/AsyncIgvfCatalogApi.md#genes_transcripts_genomic_elements) | **GET** /genes/transcripts/genomic-elements | 
 *AsyncIgvfCatalogApi* | [**genes_variants_score_summary**](docs/AsyncIgvfCatalogApi.md#genes_variants_score_summary) | **GET** /genes/variants/score-summary | 
@@ -236,6 +240,10 @@ Class | Method | HTTP request | Description
  - [Gene6](docs/Gene6.md)
  - [GeneCompact](docs/GeneCompact.md)
  - [GeneNoSynonyms](docs/GeneNoSynonyms.md)
+ - [GeneProgram](docs/GeneProgram.md)
+ - [GeneProgramsFromGenes](docs/GeneProgramsFromGenes.md)
+ - [GeneProgramsFromGenesGeneProgram](docs/GeneProgramsFromGenesGeneProgram.md)
+ - [GeneProgramsGenePrograms](docs/GeneProgramsGenePrograms.md)
  - [GeneRef](docs/GeneRef.md)
  - [Genes](docs/Genes.md)
  - [Genes2](docs/Genes2.md)
